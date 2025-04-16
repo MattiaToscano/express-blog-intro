@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "watch": "--watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/MattiaToscano/express-blog-intro/issues"
   },
-  "homepage": "https://github.com/MattiaToscano/express-blog-intro#readme"
+  "homepage": "https://github.com/MattiaToscano/express-blog-intro#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
