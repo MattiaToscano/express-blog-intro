@@ -47,6 +47,9 @@ app.get("/bacheca", (req,res) =>{
     res.json(posts);
 });
 
+//Server in ascolto sulla porta precedentemente definita
 app.listen(port,() => {
     console.log(`Server in ascolto sulla porta ${port}`);
 })
+
+
