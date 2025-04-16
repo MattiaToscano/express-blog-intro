@@ -18,27 +18,27 @@ app.get("/", (req,res) =>{
 //creo altra rotta
 app.get("/bacheca", (req,res) =>{
     const posts = [
-        {       titolo: "Primo Post", 
+        {       titolo: "Ciambellone", 
                 contenuto: "Contenuto del primo post",
                 immagine: "<images/ciambellone.jpeg>",
                 tags: [`tag1`, `tag2`, `tag3`]
         },
-        {       titolo: "Secondo Post", 
+        {       titolo: "Cracker alla barbabietola", 
                 contenuto: "Contenuto del secondo post",
                 immagine: "<images/cracker_barbabietola.jpeg>",
                 tags: [`tag1`, `tag2`, `tag3`]
         },
-        {       titolo: "Terzo Post", 
+        {       titolo: "pane fritto dolce", 
                 contenuto: "Contenuto del terzo post",
                 immagine: "<images/pane_fritto_dolce.jpeg>",
                 tags: [`tag1`, `tag2`, `tag3`]
         },
-        {       titolo: "Quarto Post", 
+        {       titolo: "pasta alla barbabietola", 
                 contenuto: "Contenuto del quarto post",
                 immagine: "<images/pasta_barbabietola.jpeg>",
                 tags: [`tag1`, `tag2`, `tag3`]
         },
-        {       titolo: "Quinto Post", 
+        {       titolo: "torta paesana", 
                 contenuto: "Contenuto del quinto post",
                 immagine: "<images/torta_paesana.jpeg>",
                 tags: [`tag1`, `tag2`, `tag3`]
